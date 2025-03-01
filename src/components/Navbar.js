@@ -38,15 +38,16 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <a className="purple"
+        <a
+          className="purple"
           style={{
             textDecoration: "none",
             fontSize: 20,
             cursor: "pointer",
-            fontWeight: "600"
+            fontWeight: "600",
           }}
         >
-              JS
+          JS
         </a>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -99,12 +100,10 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-
             <Nav.Item className="fork-btn">
               <Button
                 title="visitar o github de são souza"
-
-                href="https://github.com/joaoSouza-js?tab=repositories"
+                href="https://github.com/AugustoMachado01?tab=repositories"
                 target="_blank"
                 className="fork-btn-inner"
               >

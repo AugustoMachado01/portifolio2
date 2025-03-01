@@ -8,10 +8,12 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Olá, eu me chamo  João Souza, sou programador <i className="purple">front-end</i> e moro em Mogi das Cruzes, SP. Especialista em React, React Native, Next.js, Node e Prisma.
+            Olá, eu me chamo Augusto Machado, sou programador{" "}
+            <i className="purple">front-end</i> e moro em Angola, Luanda.
+            Especialista em React, React Native, Next.js, Node e Prisma.
           </p>
           <p style={{ textAlign: "justify" }}>
-            Atualmente estou trabalhando em uma empresa chamada Cat-Green, além
+            Atualmente estou trabalhando em uma empresa chamada webtagger, além
             de participar de Iniciativas e Comunidades como a Rocketseat
           </p>
           <span
@@ -21,7 +23,7 @@ function AboutCard() {
               textAlign: "left",
             }}
           >
-            A vida não é só código  tambem gosto de
+            A vida não é só código também gosto de
           </span>
           <ul style={{ marginTop: 8 }}>
             <li className="about-activity">
@@ -37,14 +39,14 @@ function AboutCard() {
               <ImPointRight /> Relaxar com os amigos/família
             </li>
             <li className="about-activity">
-              <ImPointRight />  Andar de Carro
+              <ImPointRight /> Andar de Carro
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
             "Your time is limited, don't waste it living someone else's life."
           </p>
-          <footer className="blockquote-footer">Stevie Jobs  </footer>
+          <footer className="blockquote-footer">Stevie Jobs </footer>
         </blockquote>
       </Card.Body>
     </Card>
